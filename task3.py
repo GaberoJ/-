@@ -27,9 +27,6 @@ def reverse_number(number):
 
 
 user_number = int(input('Введите число: '))
-# Проверка на число, оканчивающееся на 0
-while str(user_number)[-1] == '0':
-    user_number = user_number // 10
 print('Перевернутое число:', reverse_number(user_number))
 
 
